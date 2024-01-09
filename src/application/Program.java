@@ -1,10 +1,15 @@
 package application;
 
+import chess.ChessMatch;
+
 public class Program {
 	
 	public static void main(String [] args) {
 		
-		System.out.print("Hello World");
+	  ChessMatch chessmath = new ChessMatch();
+	  UI.printBoard(chessmath.getPieces());
+	   
+	
 	}
 
 }
